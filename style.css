@@ -31,9 +31,7 @@ html {
 .card header{
   background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
   border-radius: 1.5em 1.5em 0 0 ;
-  
-  
-  
+  padding: 1em;
 }
 
 .card footer{
@@ -41,25 +39,44 @@ html {
   border-radius: 0 0 1.5em 1.5em;
   
   
+  
 }
 
 .card article img{
   max-height: 100% ;
   float: right;
-  height: 7.500em;
-  background-color: black;
-  }
-
-.card header,.cardfooter{
-  height:3.125em ;
   
+ 
+  }
+  article{
+    height: 12em;
+    background-color:rgba(0,0,0,0.3);
+    
+  }
+  .card h2,
+  .card p{
+    margin: 0;
+  }
+  .card header,
+  .card footer{
+    height: 3.125em;
+    padding: 1em;
+
+  }
+  .card header h2{
+    font-size:2em;
+    line-height: 1.5;
+  }
+.card footer p{
+  line-height: 2;
+  font-size: 1.5em
 }
-header.h2{
-  font-size: 2em;
-  height: 1.25em;
+.card article p{
+  padding: 1em;
+  color:rgba(255,255,255,0.8);
 }
 
+  
 
-header.h2,footer.p{
-  margin: 0;
-}
+
+
